@@ -1,6 +1,3 @@
-# -*- coding: utf-8 -*-
-# run_ai_pvq_benchmark.py (Version 3.0 - Final for Similarity Baseline)
-
 import os
 import time
 import pandas as pd
