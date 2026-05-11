@@ -1,6 +1,6 @@
 # LLM Values under Conflict: Value Superposition-Collapse Dynamics and an Ethical Bottom Line
 
-Anonymous Author(s)
+
 
 ## Abstract
 
