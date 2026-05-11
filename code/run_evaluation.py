@@ -1,5 +1,3 @@
-# run_evaluation.py - 多模型评估（使用 GPT-4 作为助手）
-
 import os
 import time
 import random
