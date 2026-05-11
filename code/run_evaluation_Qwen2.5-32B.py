@@ -1,5 +1,3 @@
-# run_evaluation.py - 多模型评估（使用 GPT-4 作为助手）
-
 import os
 import time
 import random
@@ -42,7 +40,7 @@ except Exception as e:
     print(f"Error initializing PAI-EAS client: {e}")
     pai_eas_client = None
 
-# GPT-4 用于文本生成助手
+# GPT-4o 用于文本生成助手
 HELPER_MODEL = "openai/gpt-4o"
 
 # ==================== [配置：选择要测试的模型] ====================
@@ -54,7 +52,7 @@ SUBJECT_MODELS = [
     {"id": "Qwen2.5-32b", "name": "Qwen2.5-32b", "reasoning": True, "api_type": "pai_eas"}
 ]
 
-# 初始化 OpenRouter 客户端（用于 GPT-4 助手和 OpenRouter 模型）
+# 初始化 OpenRouter 客户端（用于 GPT-4o 助手和 OpenRouter 模型）
 os.environ["OPENAI_API_KEY"] = OPENROUTER_API_KEY
 try:
     openrouter_client = OpenAI(
