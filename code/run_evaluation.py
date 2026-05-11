@@ -43,7 +43,7 @@ SUBJECT_MODELS = [
     {"id": "doubao-seed-1-6-251015", "name": "DouBao-Seed-1_6", "reasoning": False, "api_type": "ark"}
 ]
 
-# 初始化 OpenRouter 客户端（用于 GPT-4 助手和 OpenRouter 模型）
+# 初始化 OpenRouter 客户端（用于 GPT-4o 助手和 OpenRouter 模型）
 os.environ["OPENAI_API_KEY"] = OPENROUTER_API_KEY
 try:
     openrouter_client = OpenAI(
