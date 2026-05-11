@@ -1,5 +1,3 @@
-# run_evaluation.py - 多模型评估（使用 GPT-4 作为助手）
-
 import os
 import time
 import random
@@ -41,7 +39,7 @@ except Exception as e:
     print(f"Error initializing PAI-EAS client: {e}")
     pai_eas_client = None
 
-# GPT-4 用于文本生成助手
+# GPT-4o 用于文本生成助手
 HELPER_MODEL = "openai/gpt-4o"
 
 # ==================== [配置：选择要测试的模型] ====================
