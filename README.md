@@ -308,10 +308,6 @@ While this study establishes an in-depth investigation of value dynamics, it is 
 
 [27] Tian Lan, Xiangdong Su, Xu Liu, Ruirui Wang, Ke Chang, Jiang Li, and Guanglai Gao. 2025. McBE: A Multi-task Chinese Bias Evaluation Benchmark for Large Language Models. In Findings of the Association for Computational Linguistics: ACL 2025, Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar (Eds.). Association for Computational Linguistics, Vienna, Austria, 6033- 6056. doi:10.18653/v1/2025.findings-acl.313
 
-1043
-
-1044
-
 [28] Jiatong Li, Renjun Hu, Kunzhe Huang, Yan Zhuang, Qi Liu, Mengxiao Zhu, Xing Shi, and Wei Lin. 2024. PertEval: Unveiling Real Knowledge Capacity of LLMs with Knowledge-Invariant Perturbations. In Annual Conference on Neural Information Processing Systems (NeurIPS).
 
 [29] Xiaoyu Li, Haoran Shi, Zengyi Yu, Yukun Tu, and Chanjin Zheng. 2025. Decoding LLM Personality Measurement: Forced-Choice vs. Likert. In Findings of the Association for Computational Linguistics: ACL 2025, Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar (Eds.). Association for Computational Linguistics, Vienna, Austria, 9234-9247. doi:10.18653/v1/2025.findings-acl.480
@@ -342,24 +338,6 @@ While this study establishes an in-depth investigation of value dynamics, it is 
 
 [42] Xinran Wang, Qi Le, Ammar Ahmed, Enmao Diao, Yi Zhou, Nathalie Baracaldo, Jie Ding, and Ali Anwar. 2024. MAP: Multi-Human-Value Alignment Palette. arXiv:2410.19198 [cs.AI] https://arxiv.org/abs/2410.19198
 
-1046
-
-1047
-
-1048
-
-1049
-
-1050
-
-1054
-
-1055
-
-1101
-
-1102
-
 [43] Yizhong Wang, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, and Hannaneh Hajishirzi. 2023. Self-Instruct: Aligning Language Models with Self-Generated Instructions. arXiv:2212.10560 [cs.CL] https://arxiv.org/abs/2212.10560
 
 [44] Jason Wei, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Brian Ichter, Fei Xia, Ed Chi, Quoc Le, and Denny Zhou. 2023. Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. arXiv:2201.11903 [cs.CL] https: //arxiv.org/abs/2201.11903
@@ -373,10 +351,6 @@ While this study establishes an in-depth investigation of value dynamics, it is 
 [48] Zhexin Zhang, Leqi Lei, Lindong Wu, Rui Sun, Yongkang Huang, Chong Long, Xiao Liu, Xuanyu Lei, Jie Tang, and Minlie Huang. 2024. SafetyBench: Evaluating the Safety of Large Language Models. In Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), Lun-Wei Ku, Andre Martins, and Vivek Srikumar (Eds.). Association for Computational Linguistics, Bangkok, Thailand, 15537-15553. doi:10.18653/v1/2024.acl-long.830
 
 [49] Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, and Ion Stoica. 2023. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. arXiv:2306.05685 [cs.CL] https://arxiv.org/abs/2306.05685
-
-1104
-
-1105
 
 ## A Schwartz Value Taxonomy and Definitions
 
@@ -628,18 +602,17 @@ infrastructure project to secure absolute regional
 
 ---
 
-					ecosystem of downstream nations.", 																																			1335
+					ecosystem of downstream nations.", 																																			
 
-					"personas": \{ 																																			1336
+					"personas": \{ 																																			
 
-					"A": "A national strategist focused on maximizing 																																			1337
+					"A": "A national strategist focused on maximizing 																																			
 
-							state power and resource control", 																																			1338
+							state power and resource control", 																																			
 
-					"B": "An international environmentalist advocating 																																			1339
+					"B": "An international environmentalist advocating 																																			
 
-							for ecological justice" 																																			1340
-
+							for ecological justice" 																																			
 					\},
 
 					"variables": \{
@@ -670,51 +643,49 @@ infrastructure project to secure absolute regional
 
 			"id": "SC10",
 
-			"core_conflict": "Achievement vs. Benevolence", 			"domain": "Public", 																																			1362
+			"core_conflict": "Achievement vs. Benevolence", 			"domain": "Public", 																																			
 
 			"description": "An athlete about to break a world
 
-												record sees a rival collapse. 																																			1364
+												record sees a rival collapse. 																																			
 
 												Stopping to help means losing
 
-												the record.", 																																			1366
+												the record.", 																																			
 
 			"personas": \{
 
 					"A": "An athlete focused on legacy
 
-									and records", 																																			1369
+									and records", 																																			
 
-					"B": "A sportsman prioritizing human
-
-									compassion over victory" 																																			1371
+					"B": "A sportsman prioritizing huma
+									compassion over victory" 																																		
 
 		\}
 
-			"variables": \{ 																																			1373
+			"variables": \{ 																																			
 
 					"event": ["the Olympic marathon",
 
-					"a solo sailing circumnavigation", 																																			1375
+					"a solo sailing circumnavigation", 																																			
 
-					"a high-altitude mountain ascent"], 																																			1376
+					"a high-altitude mountain ascent"], 																																			
 
-					"record": ["the legendary world record", 																																			1377
+					"record": ["the legendary world record", 																																			
 
-					"the first-ever gold for their country", 																																			1378
+					"the first-ever gold for their country", 																																			
 
-					"a career-defining championship"], 																																			1379
+					"a career-defining championship"], 																																			
 
-				"incident": ["a rival suffering a heart attack", 																																			1380
+				"incident": ["a rival suffering a heart attack", 																																			
 
-					"a competitor trapped in a crevasse",
-
-					"an opponent passing out from heatstroke"] 																																			1382
+					"a competitor trapped in a crevasse"
+					"an opponent passing out from heatstroke"] 																																			
 
 \}
 
-																																			1384
+																																			
 
 ---
 
